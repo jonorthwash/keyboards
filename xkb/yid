@@ -1,0 +1,41 @@
+// based on a keyboard map from an 'xkb/symbols/il' file
+
+partial alphanumeric_keys
+xkb_symbols "phonetic" {
+
+    // uses the phonetic layout from old Slackware 'il.map' file
+
+    name[Group1]= "Yiddish (phonetic)";
+
+    key <AE12> {        [     equal,    plus, hebrew_doublelowline, hebrew_doublelowline ]};
+
+    key <LatQ> {	[ hebrew_qoph,	U05B8	]	};
+    key <LatW> {	[ hebrew_waw,	U05BA	]	};
+    key <LatE> {	[ hebrew_ayin,	U05B6	]       };
+    key <LatR> {	[ hebrew_resh	]	};
+    key <LatT> {	[ hebrew_tet,	hebrew_taw	]       };
+    key <LatY> {	[ hebrew_yod, U05F2	]       };
+    key <LatU> {	[ U05BB	]       };
+    key <LatI> {	[ U05B4	]       };
+    key <LatO> {	[ U05F1,	U05BC	]       };
+    key <LatP> {	[ hebrew_pe, hebrew_finalpe	]	};
+
+    key <LatA> {	[ hebrew_aleph, U05B7	]	};
+    key <LatS> {	[ hebrew_samech,	hebrew_shin,	U05C2,	U05C1	]       };
+    key <LatD> {	[ hebrew_dalet,	U05B5	]       };
+    key <LatF> {	[ hebrew_pe, hebrew_finalpe	]	};
+    key <LatG> {	[ hebrew_gimel 	]       };
+    key <LatH> {	[ hebrew_he, U05B0		]       };
+    key <LatJ> {	[ hebrew_yod, hebrew_yod	]	};
+    key <LatK> {	[ hebrew_kaph, hebrew_finalkaph	]	};
+    key <LatL> {	[ hebrew_lamed, hebrew_lamed	]       };
+
+    key <LatZ> {	[ hebrew_zain	]       };
+    key <LatX> {	[ hebrew_chet	]       };
+    key <LatC> {	[ hebrew_zade, hebrew_finalzade	]       };
+    key <LatV> {	[ U05F0 ]       };
+    key <LatB> {	[ hebrew_bet,	U05BF	]       };
+    key <LatN> {	[ hebrew_nun, hebrew_finalnun	]	};
+    key <LatM> {	[ hebrew_mem, hebrew_finalmem	]	};
+};
+
