@@ -1,0 +1,88 @@
+// $XKeyboardConfig$
+
+// based on
+// russian standard keyboard
+// AEN <aen@logic.ru>
+// 2001/12/23 by Leon Kanter <leon@blackcatlinux.com>
+// 2005/12/09 Valery Inozemtsev <shrek@altlinux.ru>
+//
+// $XFree86: xc/programs/xkbcomp/symbols/ru,v 1.3 2003/02/15 22:27:05 dawes Exp $
+
+//partial hidden alphanumeric_keys 
+//default partial
+//partial default  alphanumeric_keys
+
+partial alphanumeric_keys
+xkb_symbols "basic" {
+
+name[Group1] = "MNG";
+key.type[group1] = "FOUR_LEVEL";
+
+    //include "us(basic)"
+	 //include "kaa(basic)"
+
+    // Alphanumeric section
+    key <TLDE> { [ grave,	asciitilde, U0300,	U0303 ] };
+    key <AE01> { [	   U1811,	_,	1,     exclam ] };
+    key <AE02> { [	   U1812,	_,	2,         at ] };
+    key <AE03> { [	   U1813,	_,	3, numbersign ] };
+    key <AE04> { [	   U1814,	_,	4,     dollar ] };
+    key <AE05> { [	   U1815,	_,	5,    percent ] };
+    key <AE06> { [		U1816,	_,	6, asciicircum ] };
+    key <AE07> { [	   U1817,	_,	7,  ampersand ] };
+    key <AE08> { [	   U1818,	_,	8,   asterisk ] };
+    key <AE09> { [	   U1819,	_,	9,  parenleft ] };
+    key <AE10> { [	   U1810,	_,	0, parenright ] };
+    key <AE11> { [     minus,	underscore,	emdash,	U0304 ] };
+    key <AE12> { [     equal,	plus,	approxeq,	notequal] };
+
+    key <AD01> { [	   U182C,	U1874,	q,          Q ] };
+    key <AD02> { [	   U1838,	U1807,	w,          W ] };
+    key <AD03> { [	   U185D,	U1821,	e,          E ] };
+    key <AD04> { [	   U1875,	U1837,	r,          R ] };
+    key <AD05> { [	   U1868,	_,	t,			T ] };
+    key <AD06> { [	   U1836,	U1873,	y,          Y ] };
+    key <AD07> { [	   U1860,	U1861,	u,		U ] };
+    key <AD08> { [	   U185E,	U1822,	i,		I ] };
+    key <AD09> { [	   U1823,	_,	o,			O ] };
+    key <AD10> { [	   U1866,	_,	p,			P ] };
+    key <AD11> { [ bracketleft,  braceleft,	U2018,	U201C	] };
+    key <AD12> { [bracketright, braceright,	U2019,	U201D	] };
+
+    key <AC01> { [	   U1820,	_,	a,          A	] };
+    key <AC02> { [	   U1830,	U1867,	s,         S ] };
+    key <AC03> { [	   U1869,	_,	d,          D ] };
+    key <AC04> { [	   U186B,	U1876,		f,          F 	] };
+    key <AC05> { [	   U186C,	U1864,		g,          G ] };
+    key <AC06> { [	   U186D,	_,	h,          H	] };
+    key <AC07> { [	   U186A,	U1835,	j,          J ] };
+    key <AC08> { [	   U1863,	U183A,	k,          K ] };
+
+    key <AC09> { [	   U182F,	_,	l,          L ] };
+    key <AC10> { [ semicolon,	colon,	U2026,	periodcentered ] };
+    key <AC11> { [apostrophe,	quotedbl,	U0301,	U0308] };
+
+    key <AB01> { [	   U186F,	U1877,	z,          Z ] };
+    key <AB02> { [	   U1865,	_,	x,          X ] };
+    key <AB03> { [	   U1834,	U1871,	c,          C ] };
+    key <AB04> { [	   U186E,	U186F,	v,          V ] };
+    key <AB05> { [	   U182A,	_,	b,          B ] };
+    key <AB06> { [	   U1828,	U1862,	n,          N ] };
+    key <AB07> { [	   U182E,	_,	m,          M ] };
+    key <AB08> { [	U1808,	U1802,	comma,	less	] };
+    key <AB09> { [	U1809,	U1803,	period,	greater ] };
+    key <AB10> { [     slash,   question,  questiondown,        U0294 ] };
+    key <BKSL> { [ backslash,        bar,       U02C8,        multiply ] };
+
+	 include "sjo(nbsp)"
+};
+
+
+partial alphanumeric_keys
+xkb_symbols "nbsp" {
+    key <SPCE> { [        space,        space,           space,     nobreakspace ] };
+
+
+};
+
+
