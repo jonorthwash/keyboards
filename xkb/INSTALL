@@ -1,0 +1,38 @@
+To install on Debian:
+1. Copy the layouts to your xkb/symbols dir
+2. Add the layouts to your rules/evdev.xml file
+
+You probably want to add a layout block something like this for the Turkestani layouts:
+    <layout>
+      <configItem>
+        <name>tks</name>
+        <shortDescription>tks</shortDescription>
+        <description>Turkestani</description>
+        <languageList>
+          <iso639Id>tkslat</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>tkslat</name>
+            <shortDescription>lat</shortDescription>
+            <description>Turkestani Latin</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tkscyr</name>
+            <shortDescription>cyr</shortDescription>
+            <description>Turkestani Cyrillic</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tksarb</name>
+            <shortDescription>arb</shortDescription>
+            <description>Turkestani Arabic</description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
