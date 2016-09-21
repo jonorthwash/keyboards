@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+### Think this script doesn't quite work yet
+### Please see the INSTALL file to install the layouts
+
 import sys
 import os, shutil
 from lxml import etree
