@@ -59,7 +59,7 @@ key.type[group1] = "FOUR_LEVEL";
     key <AB08> { [	comma,	less,		U2039,	guillemotleft	] };
     key <AB09> { [	period,	greater, U203A,	guillemotright	] };
     key <AB10> { [     slash,   question,  questiondown,        U0294 ] };
-    key <BKSL> { [ backslash,        bar,       U02C8,        multiply ] };
+    key <BKSL> { [ backslash,        bar,       U02C8,        U02BC ] };
 
 // include "level3(ralt_switch)"
 //	key <RALT>  {
