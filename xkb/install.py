@@ -7,17 +7,44 @@ from lxml import etree
 lg = sys.argv[1]
 xkbdir = "/usr/share/X11/xkb"
 
-layout = etree.fromstring("\
-	<layout>\
-		<configItem>\
-			<name>{}</name>\
-			<shortDescription>{}</shortDescription>\
-			<description>{}</description>\
-			<languageList>\
-				<iso639Id>{}</iso639Id>\
-			</languageList>\
-		</configItem>\
-	</layout>".format(lg, lg, lg, lg))
+
+variants = etree.fromstring("""
+	<variantList>
+		<variant>
+			<configItem>
+				<name>tkslat</name>
+				<shortDescription>lat</shortDescription>
+				<description>Tks Latin</description>
+			</configItem>
+		</variant>
+		<variant>
+			<configItem>
+				<name>tkscyr</name>
+				<shortDescription>cyr</shortDescription>
+				<description>Tks Cyrillic</description>
+			</configItem>
+		</variant>
+		<variant>
+			<configItem>
+				<name>tksarb</name>
+				<shortDescription>arb</shortDescription>
+				<description>Tks Arabic</description>
+			</configItem>
+		</variant>
+	</variantList>
+""")
+
+layout = etree.fromstring("""
+	<layout>
+		<configItem>
+			<name>{}</name>
+			<shortDescription>{}</shortDescription>
+			<description>{}</description>
+			<languageList>
+				<iso639Id>{}</iso639Id>
+			</languageList>
+		</configItem>
+	</layout>""".format(lg, lg, lg, lg))
 
 shutil.copyfile(lg, xkbdir+"/symbols/"+lg)
 
