@@ -1,0 +1,81 @@
+include "%L"
+
+# Phonology symbols
+<Multi_key> <s> <i>		: "σ"  # Sigma
+
+# IPA symbols
+<Multi_key> <d> <r>		: "ɖ"  # Retroflex d
+<Multi_key> <t> <r>		: "ʈ"  # Retroflex t
+<Multi_key> <s> <r>		: "ʂ"  # Retroflex s
+<Multi_key> <z> <r>		: "ʐ"  # Retroflex z
+<Multi_key> <l> <r>		: "ɭ"  # Retroflex l
+<Multi_key> <n> <r>		: "ɳ"  # Retroflex n
+<Multi_key> <r> <r>		: "ɽ"  # Retroflex r
+<Multi_key> <d> <j>		: "ɟ"  # 
+<Multi_key> <z> <j>		: "ʑ"  # 
+<Multi_key> <c> <j>		: "ɕ"  # 
+<Multi_key> <t> <s>		: "ʦ"  # 
+<Multi_key> <d> <Z>		: "ʥ"  # 
+<Multi_key> <d> <z>		: "ʣ"  # 
+<Multi_key> <t> <C>		: "ʨ"  # 
+<Multi_key> <v> <v>		: "ʋ"  # 
+<Multi_key> <a> <q>		: "ɐ"  # 
+<Multi_key> <g> <g>		: "ɡ"  #
+
+# Other useful symbols
+<Multi_key> <o> <h>		: "Ω"  # Omega
+<Multi_key> <O> <h>		: "Ω"  # Omega
+
+# ARROWS
+<Multi_key> <Right> <Right> : "→"
+<Multi_key> <Left> <Left>   : "←"
+<Multi_key> <Up> <Up>       : "↑"
+<Multi_key> <Down> <Down>   : "↓"
+<Multi_key> <Left> <Right>  : "↔"
+<Multi_key> <Right> <Left>  : "↔"
+<Multi_key> <Up> <Down>     : "↕"
+<Multi_key> <Down> <Up>     : "↕"
+
+# check/X
+<Multi_key> <period> <slash>: "✔"
+<Multi_key> <X> <X>         : "✘"
+
+# diacritics and symbols for various languages
+<Multi_key> <.> <_>         : ""  # combining macron below
+<Multi_key> <;> <n>         : "ꞑ"  # Yaŋalif
+<Multi_key> <n> <;>         : "ꞑ" # Yaŋalif
+<Multi_key> <;> <N>         : "Ꞑ"  # Yaŋalif
+<Multi_key> <N> <;>         : "Ꞑ"  # Yaŋalif
+<Multi_key> <;> <g>         : "ƣ"  # Yaŋalif
+<Multi_key> <g> <;>         : "ƣ" # Yaŋalif
+<Multi_key> <;> <G>         : "Ƣ"  # Yaŋalif
+<Multi_key> <G> <;>         : "Ƣ"  # Yaŋalif
+
+
+
+# small caps
+<Multi_key> <s> <c> <a>     : "ᴀ"
+<Multi_key> <s> <c> <b>     : "ʙ"
+<Multi_key> <s> <c> <c>     : "ᴄ"
+<Multi_key> <s> <c> <d>     : "ᴅ"
+<Multi_key> <s> <c> <e>     : "ᴇ"
+<Multi_key> <s> <c> <f>     : "ꜰ"
+<Multi_key> <s> <c> <g>     : "ɢ"
+<Multi_key> <s> <c> <h>     : "ʜ"
+<Multi_key> <s> <c> <i>     : "Ɪ"
+<Multi_key> <s> <c> <j>     : "ᴊ"
+<Multi_key> <s> <c> <k>     : "ᴋ"
+<Multi_key> <s> <c> <l>     : "ʟ"
+<Multi_key> <s> <c> <m>     : "ᴍ"
+<Multi_key> <s> <c> <n>     : "ɴ"
+<Multi_key> <s> <c> <o>     : "ᴏ"
+<Multi_key> <s> <c> <p>     : "ᴘ"
+<Multi_key> <s> <c> <q>     : "ꞯ"
+<Multi_key> <s> <c> <r>     : "ʀ"
+<Multi_key> <s> <c> <s>     : "ꜱ"
+<Multi_key> <s> <c> <t>     : "ᴛ"
+<Multi_key> <s> <c> <u>     : "ᴜ"
+<Multi_key> <s> <c> <v>     : "ᴠ"
+<Multi_key> <s> <c> <w>     : "ᴡ"
+<Multi_key> <s> <c> <y>     : "ʏ"
+<Multi_key> <s> <c> <z>     : "ᴢ"
