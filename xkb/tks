@@ -208,6 +208,81 @@ key.type[group1] = "FOUR_LEVEL";
 	 include "tks(nbsp)"
 };
 
+
+xkb_symbols "tksotk" {
+
+name[Group1] = "Tks Old Turkic";
+key.type[group1] = "FOUR_LEVEL";
+
+    //include "us(basic)"
+	 //include "kaa(basic)"
+
+	 // back front Yenisei_back Yenisei_front
+
+    // Alphanumeric section
+    key <TLDE> { [ grave,	asciitilde, U0300,	U0303 ] };
+    key <AE01> { [	   1,     exclam,	onehalf,	onesuperior ] };
+    key <AE02> { [	   2,         at,	U25CC,	twosuperior ] };
+    key <AE03> { [	   3, numbersign,	U0265,	threesuperior ] };
+    key <AE04> { [	   4,     dollar,	onequarter,	EuroSign ] };
+    key <AE05> { [	   5,    percent,	U0329,	U02CC] };
+    key <AE06> { [		6, asciicircum,	U0302,	U030C ] };
+    key <AE07> { [	   7,  ampersand,	U025F,	notsign	] };
+    key <AE08> { [	   8,   asterisk,	infinity,	U0306	] };
+    key <AE09> { [	   9,  parenleft, U02D0,	U032F	] };
+    key <AE10> { [	   0, parenright,	degree,	U0325	] };
+    key <AE11> { [     minus,	underscore,	emdash,	U0304 ] };
+    key <AE12> { [     equal,	plus,	approxeq,	notequal] };
+
+    key <AD01> { [	   U10C34,          U10C38,	U10C35,	U10C39	] }; // q qʷ
+    key <AD02> { [	   U10C36,          W,	U10C37,	U0270	] }; // qʲ
+    key <AD03> { [	   e,          E,	U025B,	schwa	] };
+    key <AD04> { [	   U10C3A,          U10C3C,	U10C3B,	U027B	] }; // r ŕ
+    key <AD05> { [	   U10C43,          U10C45,	U10C44,	U10C46	] }; // t t́
+    key <AD06> { [	   U10C16,          U10C18,	U10C17,	U10C19	] }; // y ý
+    key <AD07> { [	   U10C06,          U10C07,	U028A,	U10C08	] }; // u ü
+    key <AD08> { [	   U10C03,          I,	U10C04,	Iabovedot] }; // I
+    key <AD09> { [	   U10C48,          O,	U0258,	U026B	] }; // baş
+    key <AD10> { [	   U10C2F,          P,	U10C30,	U02E0	] }; // p pʷ
+    key <AD11> { [ bracketleft,  braceleft,	U2018,	U201C	] };
+    key <AD12> { [bracketright, braceright,	U2019,	U201D	] };
+
+    key <AC01> { [	   U10C00,	U10C02,	U10C01,	U10C05	] }; // a æ
+    key <AC02> { [	   U10C3D,	U10C3E,	0, 0 ] };    // s ś
+    key <AC03> { [	   U10C11,	U10C12,	U10C13,	ETH ] };      // d
+    key <AC04> { [	   U10C47,          F,	U0278,	U0127	] }; // tʷ
+    key <AC05> { [	   U10C0D,	U10C0F,	U10C0E,	U10C10	] }; // ğ g
+    key <AC06> { [	   U10C2D,	U10C2D,  U10C2C,	U10C2E	] }; // ŋ
+    key <AC07> { [	   U10C21,          J,	U0263,	U02B2	] }; // ĺt́
+    key <AC08> { [	   U10C1A,	U10B1C,	U10C1B,	U10C1D	] }; // k kʷ
+
+    key <AC09> { [	   U10C18,	U10C20,	U10C19,	U026E	] };  // ɫ l
+    key <AC10> { [ semicolon,	colon,	U2026,	periodcentered ] };
+    key <AC11> { [apostrophe,	quotedbl,	U0301,	U0308] };
+
+    key <AB01> { [	   U10C14,          Z,	U10C15,	U02A4	] }; // z
+    key <AB02> { [	   U10C3F,          U10C41,	U10C40,	U10C42	] }; // ʃ
+    key <AB03> { [	   U10C32,          U10C31,	U10C33,	Ccedilla ] }; // ç çʲ
+    key <AB04> { [	   U10C28,          U10C26,	U10C29,	U10C27	] }; // ńç ńt
+    key <AB05> { [	   U10C09,          U10C11,	U10C10,	U10C11	] }; // b b́
+    key <AB06> { [	   U10C23,          U10C24,	U014B,	U10C25	] }; // n ń
+    key <AB07> { [	   U10C22,          U10C2A,	U0271,	U10C2B	] }; // m ɲ
+    key <AB08> { [	comma,	less,		U2039,	guillemotleft	] };
+    key <AB09> { [	period,	greater, U203A,	guillemotright	] };
+    key <AB10> { [     slash,   question,  questiondown,        U0294 ] };
+    key <BKSL> { [ backslash,        bar,       U02C8,        U02BC ] };
+
+// include "level3(ralt_switch)"
+//	key <RALT>  {
+//		type[Group1]="ONE_LEVEL",
+//		symbols[Group1] = [ ISO_Level3_Shift ]
+//	};
+//	modifier_map Mod5   { ISO_Level3_Shift };
+
+	 include "tks(nbsp)"
+};
+
+
 partial alphanumeric_keys
 xkb_symbols "nbsp" {
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
