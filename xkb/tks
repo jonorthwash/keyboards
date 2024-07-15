@@ -271,7 +271,7 @@ key.type[group1] = "FOUR_LEVEL_ALPHABETIC";
     key <AB02> { [	   U10C3F,          U10C41,	U10C40,	U10C42	] }; // ʃ
     key <AB03> { [	   U10C32,          U10C31,	U10C33,	Ccedilla ] }; // ç çʲ
     key <AB04> { [	   U10C28,          U10C26,	U10C29,	U10C27	] }; // ńç ńt
-    key <AB05> { [	   U10C09,          U10C11,	U10C10,	U10C11	] }; // b b́
+    key <AB05> { [	   U10C09,          U10C0B,	U10C0A,	U10C0C	] }; // b b́
     key <AB06> { [	   U10C23,          U10C24,	U014B,	U10C25	] }; // n ń
     key <AB07> { [	   U10C22,          U10C2A,	U0271,	U10C2B	] }; // m ɲ
     key <AB08> { [	comma,	less,		U2039,	guillemotleft	] };
