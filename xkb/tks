@@ -264,7 +264,7 @@ key.type[group1] = "FOUR_LEVEL_ALPHABETIC";
     key <AC08> { [	   U10C1A,	U10B1C,	U10C1B,	U10C1D	] }; // k kʷ
 
     key <AC09> { [	   U10C1E,	U10C20,	U10C1F,	U026E	] };  // ɫ l
-    key <AC10> { [ semicolon,	colon,	U2026,	periodcentered ] };
+    key <AC10> { [ semicolon,	U16EC,	U2026,	periodcentered ] };
     key <AC11> { [apostrophe,	quotedbl,	U0301,	U0308] };
 
     key <AB01> { [	   U10C14,          Z,	U10C15,	U02A4	] }; // z
