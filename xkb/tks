@@ -23,6 +23,7 @@ key.type[group1] = "FOUR_LEVEL";
     key <AE11> { [     minus,	underscore,	emdash,	U0304 ] };
     key <AE12> { [     equal,	plus,	approxeq,	notequal] };
 
+key.type[group1] = "FOUR_LEVEL_ALPHABETIC";
     key <AD01> { [	   q,          Q,	U0251,	U0252	] };
     key <AD02> { [	   w,          W,	U026F,	U0270	] };
     key <AD03> { [	   e,          E,	U025B,	schwa	] };
@@ -93,6 +94,8 @@ key.type[group1] = "FOUR_LEVEL";
     key	<BKSL> {	[	backslash,		bar,	U0301,	U02C8	]	};
     key	<AB10> {	[	    period,	comma,	slash,	question	]	};
     key <LSGT> {        [           slash,             bar      ]       };
+
+key.type[group1] = "FOUR_LEVEL_ALPHABETIC";
     key	<TLDE> {	[     Cyrillic_io,	Cyrillic_IO,	grave,	asciitilde	]	};
     key	<AD01> {	[ Cyrillic_shorti,	Cyrillic_SHORTI,	U045E,	U040E	 ]	};
     key	<AD02> {	[    Cyrillic_tse,	Cyrillic_TSE,	U051D,	U051C	]	};
@@ -160,6 +163,8 @@ key.type[group1] = "FOUR_LEVEL";
     key <AE10> { [ U06F0,	degree,		0,			parenright ] };
     key <AE11> { [     minus,	underscore,	emdash,	U0304 ] };
     key <AE12> { [     equal,	plus,	approxeq,	notequal] };
+
+key.type[group1] = "FOUR_LEVEL_ALPHABETIC";
 
     key <AD01> { [	   U0642,	U061E,	q,		Q	] };
     key <AD02> { [	   U06CB,	U061E,	w,		W	] };
@@ -234,6 +239,8 @@ key.type[group1] = "FOUR_LEVEL";
     key <AE11> { [     minus,	underscore,	emdash,	U0304 ] };
     key <AE12> { [     equal,	plus,	approxeq,	notequal] };
 
+key.type[group1] = "FOUR_LEVEL_ALPHABETIC";
+
     key <AD01> { [	   U10C34,          U10C38,	U10C35,	U10C39	] }; // q qʷ
     key <AD02> { [	   U10C36,          W,	U10C37,	U0270	] }; // qʲ
     key <AD03> { [	   e,          E,	U025B,	schwa	] };
@@ -256,7 +263,7 @@ key.type[group1] = "FOUR_LEVEL";
     key <AC07> { [	   U10C21,          J,	U0263,	U02B2	] }; // ĺt́
     key <AC08> { [	   U10C1A,	U10B1C,	U10C1B,	U10C1D	] }; // k kʷ
 
-    key <AC09> { [	   U10C18,	U10C20,	U10C19,	U026E	] };  // ɫ l
+    key <AC09> { [	   U10C1E,	U10C20,	U10C1F,	U026E	] };  // ɫ l
     key <AC10> { [ semicolon,	colon,	U2026,	periodcentered ] };
     key <AC11> { [apostrophe,	quotedbl,	U0301,	U0308] };
 
