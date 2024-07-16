@@ -261,7 +261,7 @@ key.type[group1] = "FOUR_LEVEL_ALPHABETIC";
     key <AC05> { [	   U10C0D,	U10C0F,	U10C0E,	U10C10	] }; // ğ g
     key <AC06> { [	   U10C2D,	U10C2D,  U10C2C,	U10C2E	] }; // ŋ
     key <AC07> { [	   U10C21,          J,	U0263,	U02B2	] }; // ĺt́
-    key <AC08> { [	   U10C1A,	U10B1C,	U10C1B,	U10C1D	] }; // k kʷ
+    key <AC08> { [	   U10C1A,	U10C1C,	U10C1B,	U10C1D	] }; // k kʷ
 
     key <AC09> { [	   U10C1E,	U10C20,	U10C1F,	U026E	] };  // ɫ l
     key <AC10> { [ semicolon,	U16EC,	U2026,	periodcentered ] };
